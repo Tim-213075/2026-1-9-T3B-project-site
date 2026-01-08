@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>電三孝專題報告｜行事曆</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+
+<header>
+  <div class="container navbar">
+    <div class="brand">
+      <span>電三孝專題報告</span>
+      <small>二信電機科</small>
+    </div>
+
+    <nav class="navlinks" data-nav>
+      <a href="index.html">首頁</a>
+      <a href="about.html">關於我們</a>
+      <a href="calendar.html">行事曆</a>
+      <a href="contact.html">聯絡</a>
+    </nav>
+
+    <button class="burger" data-burger>☰ 選單</button>
+  </div>
+</header>
+
+<div class="drawer-backdrop" data-backdrop></div>
+<aside class="drawer" data-drawer>
+  <div class="drawer-top">
+    <button class="drawer-close" data-close>✕ 選單</button>
+  </div>
+  <nav data-nav>
+    <a href="index.html">首頁</a>
+    <a href="about.html">關於我們</a>
+    <a href="calendar.html">行事曆</a>
+    <a href="contact.html">聯絡</a>
+  </nav>
+</aside>
+
+<section class="section page-calendar">
+  <div class="container">
+    <h2>114學年度寒假預定行事曆</h2>
+    <p class="lead">（PDF 內嵌顯示，可直接在此頁縮放與捲動）</p>
+
+    <div class="pdf-full">
+      <iframe
+        class="pdf-frame"
+        src="assets/docs/calendar.pdf#zoom=page-fit"
+        title="114學年度寒假預定行事曆 PDF"
+      ></iframe>
+    </div>
+
+    <p class="pdf-fallback">
+      若你的瀏覽器無法直接顯示 PDF，可改用：
+      <a href="assets/docs/calendar.pdf" target="_blank" rel="noreferrer">開新分頁查看</a>
+    </p>
+  </div>
+</section>
+
+<footer>© 2026 二信電三孝專題報告</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
